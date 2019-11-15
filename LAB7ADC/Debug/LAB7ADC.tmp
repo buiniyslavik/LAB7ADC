@@ -23,7 +23,11 @@
  </OUTPUT_FILES>
  <LABELS>
   <Reset><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>13</LINE></Reset>
-  <ADC_conv><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>29</LINE></ADC_conv>
-  <main><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>28</LINE></main>
+  <ADC_conv><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>33</LINE></ADC_conv>
+  <main><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>32</LINE></main>
+  <ThreeLeds><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>50</LINE></ThreeLeds>
+  <TwoLeds><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>56</LINE></TwoLeds>
+  <OneLed><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>62</LINE></OneLed>
+  <skip><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>46</LINE></skip>
  </LABELS>
 </ASSEMBLER_INFO>
