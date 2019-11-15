@@ -12,7 +12,7 @@
   jmp ADC_conv 
 Reset: 
   ldi package,0x4E 
-  ldi temp,(0<<REFS1)|(1<<REFS0)|(1<<ADLAR) 
+  ldi temp,(0<<REFS1)|(1<<REFS0)|(1<<ADLAR)|(1<<MUX3) 
   sts ADMUX,temp 
   ldi temp,(1<<ADEN)|(1<<ADSC)|(1<<ADLAR)|(1<<ADIF)|(1<<ADIE)|(1<<ADPS2)|(1<<ADPS1)|(1<<ADPS0) 
   sts ADCSRA,temp 
@@ -50,7 +50,7 @@ ADC_conv:
   cbi PORTD, 1
   cbi PORTB, 5
   skip:
-;  sts UDR0,razr2  
+  sts UDR0,razr2  
   reti
 
   ThreeLeds:

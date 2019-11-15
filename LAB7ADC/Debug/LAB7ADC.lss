@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 16:10:25 2019
+AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 16:16:26 2019
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
 C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm(1): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
@@ -1043,7 +1043,7 @@ C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm(1): Incl
 00002a 940c 004b                   jmp ADC_conv 
                                  Reset: 
 00002c e43e                        ldi package,0x4E 
-00002d e600                        ldi temp,(0<<REFS1)|(1<<REFS0)|(1<<ADLAR) 
+00002d e608                        ldi temp,(0<<REFS1)|(1<<REFS0)|(1<<ADLAR)|(1<<MUX3) 
 00002e 9300 007c                   sts ADMUX,temp 
 000030 ef0f                        ldi temp,(1<<ADEN)|(1<<ADSC)|(1<<ADLAR)|(1<<ADIF)|(1<<ADIE)|(1<<ADPS2)|(1<<ADPS1)|(1<<ADPS0) 
 000031 9300 007a                   sts ADCSRA,temp 
@@ -1070,36 +1070,36 @@ C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm(1): Incl
 00004b 9110 0078                   lds razr1, ADCL 
 00004d 9120 0079                   lds razr2, ADCH 
 00004f 3b25                        cpi razr2, 0xb5 
-000050 f444                        brge ThreeLeds
+000050 f454                        brge ThreeLeds
 000051 3625                        cpi razr2, 0x65
-000052 f45c                        brge TwoLeds
+000052 f46c                        brge TwoLeds
 000053 3125                        cpi razr2, 0x15
-000054 f46c                        brge OneLed
+000054 f47c                        brge OneLed
                                    ; no leds lol
                                    ;skip:
 000055 9858                        cbi PORTD, 0
 000056 9859                        cbi PORTD, 1
 000057 982d                        cbi PORTB, 5
                                    skip:
-                                 ;  sts UDR0,razr2  
-000058 9518                        reti
+000058 9320 00c6                   sts UDR0,razr2  
+00005a 9518                        reti
                                  
                                    ThreeLeds:
-000059 9a58                      	sbi PORTD, 0
-00005a 9a59                      	sbi PORTD, 1
-00005b 9a2d                      	sbi PORTB, 5
-00005c 940c 0058                 	jmp skip
+00005b 9a58                      	sbi PORTD, 0
+00005c 9a59                      	sbi PORTD, 1
+00005d 9a2d                      	sbi PORTB, 5
+00005e 940c 0058                 	jmp skip
                                  
                                    TwoLeds:
                                  ;	sbi PORTD, 0
-00005e 9a59                      	sbi PORTD, 1
-00005f 9a2d                      	sbi PORTB, 5
-000060 940c 0058                 	jmp skip
+000060 9a59                      	sbi PORTD, 1
+000061 9a2d                      	sbi PORTB, 5
+000062 940c 0058                 	jmp skip
                                  
                                    OneLed:
                                  ;	sbi PORTD, 0
                                  ;	sbi PORTD, 1
-000062 9a2d                      	sbi PORTB, 5
+000064 9a2d                      	sbi PORTB, 5
 
 
 RESOURCE USE INFORMATION
@@ -1119,7 +1119,7 @@ counted separately from r26..r31 here.
 "ATmega328P" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  15 r17:   1 r18:   4 r19:   1 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  15 r17:   1 r18:   5 r19:   1 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 4 out of 35 (11.4%)
@@ -1142,14 +1142,14 @@ push  :   0 rcall :   0 ret   :   0 reti  :   1 rjmp  :   0 rol   :   0
 ror   :   0 sbc   :   0 sbci  :   0 sbi   :   9 sbic  :   0 sbis  :   0 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
 sei   :   1 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
-sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   6 
+sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   7 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
 Instructions used: 11 out of 113 (9.7%)
 
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0000ca    122      0    122   32768   0.4%
+[.cseg] 0x000000 0x0000ce    126      0    126   32768   0.4%
 [.dseg] 0x000100 0x000100      0      0      0    2048   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 

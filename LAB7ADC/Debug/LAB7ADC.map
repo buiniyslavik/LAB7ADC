@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 16:10:25 2019
+AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 16:16:26 2019
 
 
 EQU  SIGNATURE_000 0000001e
@@ -705,7 +705,7 @@ EQU  UBRR0_value  00000067
 CSEG Reset        0000002c
 CSEG ADC_conv     0000004b
 CSEG main         00000049
-CSEG ThreeLeds    00000059
-CSEG TwoLeds      0000005e
-CSEG OneLed       00000062
+CSEG ThreeLeds    0000005b
+CSEG TwoLeds      00000060
+CSEG OneLed       00000064
 CSEG skip         00000058
