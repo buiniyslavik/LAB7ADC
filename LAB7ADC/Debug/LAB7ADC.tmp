@@ -23,7 +23,7 @@
   <FILE>LAB7ADC.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <main><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>6</LINE></main>
-  <voltlev><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>13</LINE></voltlev>
+  <main><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>39</LINE></main>
+  <voltlev><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>52</LINE></voltlev>
  </LABELS>
 </ASSEMBLER_INFO>
