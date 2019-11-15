@@ -25,9 +25,9 @@
   <Reset><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>13</LINE></Reset>
   <ADC_conv><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>38</LINE></ADC_conv>
   <main><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>37</LINE></main>
+  <skip><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>52</LINE></skip>
   <ThreeLeds><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>56</LINE></ThreeLeds>
   <TwoLeds><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>62</LINE></TwoLeds>
   <OneLed><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>68</LINE></OneLed>
-  <skip><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>52</LINE></skip>
  </LABELS>
 </ASSEMBLER_INFO>

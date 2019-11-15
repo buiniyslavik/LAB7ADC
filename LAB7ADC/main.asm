@@ -26,29 +26,29 @@ Reset:
   sts UCSR0C,R16              
   sei 
   ldi r16, 0xff
-  sbi DDRD, 0
-  sbi DDRD, 1
-  sbi DDRB, 5
-  out ddrd, r16
-  out ddrb, r16
-  cbi PORTD, 0
-  cbi PORTD, 1
-  cbi PORTB, 5
+;  sbi DDRD, 0
+;  sbi DDRD, 1
+;  sbi DDRB, 5
+;  out ddrd, r16
+;  out ddrb, r16
+;  cbi PORTD, 0
+;  cbi PORTD, 1
+;  cbi PORTB, 5
 main: jmp main 
 ADC_conv: 
   lds razr1, ADCL 
   lds razr2, ADCH 
-  cpi razr2, 0xb5 
-  brge ThreeLeds
-  cpi razr2, 0x65
-  brge TwoLeds
-  cpi razr2, 0x15
-  brge OneLed
+;  cpi razr2, 0xb5 
+;  brge ThreeLeds
+;  cpi razr2, 0x65
+;  brge TwoLeds
+;  cpi razr2, 0x15
+;  brge OneLed
   ; no leds lol
   ;skip:
-  cbi PORTD, 0
-  cbi PORTD, 1
-  cbi PORTB, 5
+;  cbi PORTD, 0
+;  cbi PORTD, 1
+;  cbi PORTB, 5
   skip:
   sts UDR0,razr2  
   reti
