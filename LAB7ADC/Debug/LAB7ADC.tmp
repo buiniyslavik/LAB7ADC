@@ -23,7 +23,14 @@
   <FILE>LAB7ADC.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <main><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>39</LINE></main>
-  <voltlev><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>52</LINE></voltlev>
+  <Reset><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>7</LINE></Reset>
+  <VoltOK><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>38</LINE></VoltOK>
+  <voltlev><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>64</LINE></voltlev>
+  <NorV><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>96</LINE></NorV>
+  <send><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>50</LINE></send>
+  <repeat><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>54</LINE></repeat>
+  <LowV><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>95</LINE></LowV>
+  <sendLow><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>78</LINE></sendLow>
+  <repeatLow><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>82</LINE></repeatLow>
  </LABELS>
 </ASSEMBLER_INFO>

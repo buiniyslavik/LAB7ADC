@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 14:18:27 2019
+AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 14:39:22 2019
 
 
 EQU  SIGNATURE_000 0000001e
@@ -698,5 +698,12 @@ EQU  INT_VECTORS_SIZE 00000034
 EQU  CLK          00f42400
 EQU  BAUD         00002580
 EQU  UBRR0_value  00000067
-CSEG main         00000017
-CSEG voltlev      0000001f
+CSEG Reset        00000002
+CSEG VoltOK       00000017
+CSEG voltlev      0000002c
+CSEG NorV         00000048
+CSEG send         00000020
+CSEG repeat       00000024
+CSEG LowV         00000042
+CSEG sendLow      00000034
+CSEG repeatLow    00000038
