@@ -21,14 +21,19 @@ Reset:
   ldi r16, low(UBRR0_value)  
   sts UBRR0L, r16  
   ldi r16,(1<<TXEN0)            
-;  sts UCSR0B,R16  
+  sts UCSR0B,R16  
   ldi r16,(1<< UCSZ00)|(1<< UCSZ01)  
   sts UCSR0C,R16              
   sei 
-
+  ldi r16, 0xff
   sbi DDRD, 0
   sbi DDRD, 1
   sbi DDRB, 5
+  out ddrd, r16
+  out ddrb, r16
+  cbi PORTD, 0
+  cbi PORTD, 1
+  cbi PORTB, 5
 main: jmp main 
 ADC_conv: 
   lds razr1, ADCL 
@@ -40,11 +45,12 @@ ADC_conv:
   cpi razr2, 0x15
   brge OneLed
   ; no leds lol
+  ;skip:
   cbi PORTD, 0
   cbi PORTD, 1
   cbi PORTB, 5
   skip:
-  sts UDR0,package  
+  ;sts UDR0,razr2  
   reti
 
   ThreeLeds:
