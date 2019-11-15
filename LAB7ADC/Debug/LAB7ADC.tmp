@@ -10,7 +10,6 @@
  <SOURCE_FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
-  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328Pdef.inc</FILE>
  </INCLUDED_FILES>
  <OBJECT_FILES>
   <FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\Debug\LAB7ADC.obj</FILE>
@@ -23,14 +22,8 @@
   <FILE>LAB7ADC.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <Reset><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>7</LINE></Reset>
-  <VoltOK><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>38</LINE></VoltOK>
-  <voltlev><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>64</LINE></voltlev>
-  <NorV><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>96</LINE></NorV>
-  <send><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>50</LINE></send>
-  <repeat><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>54</LINE></repeat>
-  <LowV><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>95</LINE></LowV>
-  <sendLow><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>78</LINE></sendLow>
-  <repeatLow><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>82</LINE></repeatLow>
+  <Reset><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>13</LINE></Reset>
+  <ADC_conv><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>29</LINE></ADC_conv>
+  <main><FILE>C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm</FILE><LINE>28</LINE></main>
  </LABELS>
 </ASSEMBLER_INFO>
