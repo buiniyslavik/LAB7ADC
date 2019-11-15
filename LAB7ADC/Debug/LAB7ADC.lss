@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 16:00:55 2019
+AVRASM ver. 2.2.7  C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm Fri Nov 15 16:10:25 2019
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
 C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm(1): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
@@ -1081,7 +1081,7 @@ C:\Users\home\Documents\Atmel Studio\7.0\3kurs\LAB7ADC\LAB7ADC\main.asm(1): Incl
 000056 9859                        cbi PORTD, 1
 000057 982d                        cbi PORTB, 5
                                    skip:
-                                   ;sts UDR0,razr2  
+                                 ;  sts UDR0,razr2  
 000058 9518                        reti
                                  
                                    ThreeLeds:

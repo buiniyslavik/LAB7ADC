@@ -50,7 +50,7 @@ ADC_conv:
   cbi PORTD, 1
   cbi PORTB, 5
   skip:
-  ;sts UDR0,razr2  
+;  sts UDR0,razr2  
   reti
 
   ThreeLeds:
